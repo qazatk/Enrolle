@@ -14,5 +14,7 @@ namespace QazATK.Models
         public string Email { get; set; }
         public int Iin { get; set; }
 
+        //Добавить объект для ввода для ном. телефона
+
     }
 }
