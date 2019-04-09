@@ -1,0 +1,14 @@
+/home/nurlan/Project/QazATK/bin/Debug/netcoreapp2.2/QazATK.deps.json
+/home/nurlan/Project/QazATK/bin/Debug/netcoreapp2.2/QazATK.runtimeconfig.json
+/home/nurlan/Project/QazATK/bin/Debug/netcoreapp2.2/QazATK.runtimeconfig.dev.json
+/home/nurlan/Project/QazATK/bin/Debug/netcoreapp2.2/QazATK.dll
+/home/nurlan/Project/QazATK/bin/Debug/netcoreapp2.2/QazATK.pdb
+/home/nurlan/Project/QazATK/obj/Debug/netcoreapp2.2/QazATK.csprojAssemblyReference.cache
+/home/nurlan/Project/QazATK/obj/Debug/netcoreapp2.2/QazATK.csproj.CoreCompileInputs.cache
+/home/nurlan/Project/QazATK/obj/Debug/netcoreapp2.2/QazATK.RazorAssemblyInfo.cache
+/home/nurlan/Project/QazATK/obj/Debug/netcoreapp2.2/QazATK.RazorAssemblyInfo.cs
+/home/nurlan/Project/QazATK/obj/Debug/netcoreapp2.2/QazATK.AssemblyInfoInputs.cache
+/home/nurlan/Project/QazATK/obj/Debug/netcoreapp2.2/QazATK.AssemblyInfo.cs
+/home/nurlan/Project/QazATK/obj/Debug/netcoreapp2.2/QazATK.RazorTargetAssemblyInfo.cache
+/home/nurlan/Project/QazATK/obj/Debug/netcoreapp2.2/QazATK.dll
+/home/nurlan/Project/QazATK/obj/Debug/netcoreapp2.2/QazATK.pdb
