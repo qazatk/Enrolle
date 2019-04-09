@@ -1,6 +1,8 @@
 using System;
 using System.ComponentModel.DataAnnotations;
 
+/* Уровень образования */
+
 namespace QazATK.Models
 {
     public class EducationLevel
