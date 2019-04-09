@@ -17,9 +17,7 @@ namespace QazATK.Controllers
         [HttpGet]
         public ActionResult<IEnumerable<string>> Get()
         {
-            User users = new User { Firstname = "Nurlan", Lastname = "Turkpenbaev"};
-            db.Users.Add(users);
-            db.SaveChanges();
+ 
             return new string[] { "value1", "value2" };
         }
 
