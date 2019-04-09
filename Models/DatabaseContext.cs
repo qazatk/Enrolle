@@ -8,6 +8,11 @@ namespace QazATK.Models
         public DatabaseContext(DbContextOptions<DatabaseContext> options) 
             :base(options) {}
 
-            internal DbSet<User> Users { get; set; }        
+            public DbSet<User> Users { get; set; }        
+            public DbSet<Nationality> Nationalities { get; set; }
+            public DbSet<Enrollee> Enrollee { get; set; }
+            public DbSet<EducationLevel> EducationLevels { get; set; }
+            public DbSet<InstructionLanguage> InstructionLanguages { get; set; }
+            public DbSet<PreviousEducation> PreviousEducations { get; set; }
     }
 }
