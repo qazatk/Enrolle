@@ -8,9 +8,40 @@ namespace QazATK.Models
         [Key]
         public int Id { get; set; }
 
-        public string Firstname { get; set; }
-        public string Lastname { get; set; }
-        public string Patronimyc { get; set; }
+        public virtual int GetId()
+        {
+            return Id;
+        }
+        public virtual void SetId(int value)
+        {
+            Id = value;
+        }
+
+        private string Firstname { get; set; }
+
+        public virtual string GetFirstname()
+        {
+            return Firstname;
+        }
+
+        public virtual void SetFirstname(string value)
+        {
+            Firstname = value;
+        }
+        private string Lastname { get; set; }
+
+        public string GetLastname()
+        {
+            return Lastname;
+        }
+        private string Patronimyc { get; set; }
+
+        public string GetPatronimyc()
+        {
+            return Patronimyc;
+        }
+
+
         public string Email { get; set; }
         public int Iin { get; set; }
 
