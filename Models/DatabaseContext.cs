@@ -16,6 +16,12 @@ namespace QazATK.Models
         {
             base.OnModelCreating(builder);
             builder.Entity<IdentityUser>().ToTable("Users");
+            builder.Entity<IdentityRole>().ToTable("Roles");
+            builder.Entity<IdentityUserLogin<string>>().ToTable("UserLogins");
+            builder.Entity<IdentityRoleClaim<string>>().ToTable("UserRoleClaims");
+            builder.Entity<IdentityUserClaim<string>>().ToTable("UserClaims");
+            builder.Entity<IdentityUserToken<string>>().ToTable("UserTokens");
+            builder.Entity<IdentityUserRole<string>>().ToTable("UserRoles");
         }
 
         public DbSet<User> Users { get; set; }

@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using QazATK.Models;
 
@@ -17,7 +18,7 @@ namespace QazATK.Controllers
         [HttpGet]
         public ActionResult<IEnumerable<string>> Get()
         {
- 
+            
             return new string[] { "value1", "value2" };
         }
 

@@ -13,6 +13,7 @@ using Microsoft.Extensions.Options;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Identity;
 using QazATK.Models;
+using Microsoft.AspNetCore.Identity.UI;
 
 namespace QazATK
 {
@@ -30,6 +31,8 @@ namespace QazATK
         {
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
             services.AddDbContext<DatabaseContext>(options => options.UseNpgsql(Configuration.GetConnectionString("DefaultConnection")));
+            services.AddDefaultIdentity<IdentityUser>().AddDefaultUI(UIFramework.Bootstrap4).AddEntityFrameworkStores<DatabaseContext>();
+            
             
             
         }
